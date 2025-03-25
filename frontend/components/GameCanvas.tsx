@@ -33,7 +33,7 @@ const GameCanvas = () => {
       let avatarId: string;
 
       function preload(this: Phaser.Scene) {
-        this.load.image('avatar', '/person.png');
+        this.load.image('avatar', '/avatar_1.png');
       }
 
       function create(this: Phaser.Scene) {
@@ -88,7 +88,7 @@ const GameCanvas = () => {
       }
 
       function update(this: Phaser.Scene) {
-        const speed = 5;
+        const speed = 3;
         if (cursors.left.isDown) player.x -= speed;
         if (cursors.right.isDown) player.x += speed;
         if (cursors.up.isDown) player.y -= speed;
