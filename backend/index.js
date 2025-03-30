@@ -14,7 +14,7 @@ const server = createServer(app);
 const io = new Server(server, {
   cors: {
     origin: "http://localhost:3000",  // Allow frontend requests
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST","PUT","DELETE"],
     credentials: true,
   },
   transports: ["websocket", "polling"], // Ensure WebSocket and polling work

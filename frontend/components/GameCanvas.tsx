@@ -88,7 +88,7 @@ const GameCanvas = () => {
       }
 
       function update(this: Phaser.Scene) {
-        const speed = 3;
+        const speed = 4;
         if (cursors.left.isDown) player.x -= speed;
         if (cursors.right.isDown) player.x += speed;
         if (cursors.up.isDown) player.y -= speed;
