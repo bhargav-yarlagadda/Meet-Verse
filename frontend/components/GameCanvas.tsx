@@ -129,7 +129,7 @@ const GameCanvas = () => {
   return (
     <div
       id="game-container"
-      className="absolute inset-0 w-screen h-screen overflow-hidden"
+      className="absolute inset-0 w-screen h-screen bg-black overflow-hidden"
     />
   );
 };
